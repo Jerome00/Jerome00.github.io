@@ -1,0 +1,236 @@
+ul,ol,li {
+    list-style:none
+}
+em,i {
+    font-style:normal
+}
+.navbar-fixed-page {
+    top: 2.2em;
+}
+.navbar-fixed-page .pc-navbar-header {
+    width:100%;
+}
+.navbar-fixed-page .pc-navbar-header .navbar-nav{
+    width: 100%;
+}
+.navbar-fixed-page .pc-navbar-header .navbar-nav li {
+    width:25%;
+    text-align:center
+}
+.navbar-fixed-page .pc-navbar-header .navbar-nav li a{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    -webkit-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.navbar-fixed-page .pc-navbar-header .navbar-nav a:link {
+    background: transparent;
+}
+.navbar-fixed-page .pc-navbar-header .navbar-nav a:visited {
+    background: transparent;
+}
+.navbar-fixed-page .pc-navbar-header .navbar-nav a:hover {
+    background:#40D2B1;
+}
+.navbar-fixed-page .pc-navbar-header .navbar-nav a:active {
+    background: none;
+}
+
+#page1 {
+    background: url(../img/index-header-banner.jpg) no-repeat center;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    /*height: 800px;*/
+}
+#page1 .main {
+    width:100%;
+    height: 100%;
+    /*background:rgba(82,70,100,0.33)*/
+    background:rgba(0,0,0,0.4);
+}
+#page1 .main div {
+    margin: 0 auto;
+    text-align: center;
+}
+#page1 .main .logo {
+    width:100%;
+    height: 100px;
+    margin-top: 14em;
+}
+#page1 .main .logo img {
+    height: 90px;
+    width: 90px;
+    border: 2px solid #8c8c8c;
+    border-radius: 45px;
+}
+#page1 .main .name span {
+    padding-top: 1em;
+    font-size: 3.2em;
+    color:#ccc;
+}
+#page1 .main .des span {
+    font-size: 3.5em;
+    color: #fff;
+    display: inline-block;
+    text-shadow: -2px -2px #000;
+}
+#page1 .main .des .end {
+    color: #0099ff;
+}
+#page1 .main .bottom {
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: -1px -1px #000;
+    margin:1.2em 0 1em 0;
+}
+@keyframes bounce-down {
+    25% {
+        transform: translateY(-8px);
+    }
+    50%, 100% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(8px);
+    }
+}
+#page1 .main .arrow {
+    padding-bottom: 10px;
+    animation: bounce-down 1s linear infinite;
+}
+#page1 .main .arrow a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3em;
+}
+#zuopin {
+    padding: 2em 0;
+    text-align: center;
+}
+#zuopin .title {
+    font-size: 3em;
+    color: #8c8c8c;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#zuopin img {
+    margin: 0 auto;
+    height: 9em;
+    width: 9em;
+}
+#zuopin .btn {
+    margin: 10px 20px;
+    background: transparent;
+    color: #40D2B1;
+    border: 1px solid #40D2B1;
+}
+#blog {
+    padding: 2em 0;
+    background: #F8F8F8;
+}
+#blog .title {
+    font-size: 3em;
+    color: #8c8c8c;
+    font-weight: bold;
+    text-align: center;
+}
+#blog article {
+    margin: 1em 0 0 0;
+}
+#blog article a {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-decoration: none;
+    font-weight: bold;
+}
+#blog .time {
+    font-size: 1em;
+    color: #cccccc;
+    padding: 0.5em;
+}
+#blog .content {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-indent: 2em;
+}
+#blog .more {
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+#blog a {
+    text-decoration: none;
+    color: #000;
+}
+#blog a:hover {
+    color: #5CACEE;
+}
+#blog a:active {
+    color: #5CACEE;
+}
+#iOS {
+    padding-top: 2em;
+}
+#iOS .title {
+    font-size: 3em;
+    color: #8c8c8c;
+    font-weight: bold;
+    text-align: center;
+}
+#iOS .col-md-5 img{
+    margin: 0 auto;
+}
+#iOS p {
+    line-height: 3em;
+}
+#html5 {
+    padding: 0 0 2em 0;
+}
+#html5 p {
+    padding-top: 2em;
+    line-height: 40px;
+}
+#jianli {
+    padding: 10px;
+}
+#jianli .title {
+    font-size: 3em;
+    color: #8c8c8c;
+    font-weight: bold;
+    text-align: center;
+
+}
+#jianli .company .glyphicon {
+    padding-right: 20px;
+}
+
+#contact {
+    background:url(../img/home-bg.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+.filter {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 2em 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#contact .form-control {
+    margin-bottom: 20px;
+}
+#contact textarea {
+    resize: none;
+    width: 100%;
+    height: auto;
+}

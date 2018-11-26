@@ -1,0 +1,11 @@
+ul,ol,li {
+    list-style:none
+}
+em,i {
+    font-style:normal
+}
+#Nav ul {
+    height:100%;
+    background-color: rebeccapurple;
+    font-size: 1.6em;
+}
